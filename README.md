@@ -38,6 +38,7 @@ DB_PASSWORD=secret
 
 - composer install
 - php artisan migrate --seed
+- npm install
 - npm run build
 
 ## Вход/Регистрация
