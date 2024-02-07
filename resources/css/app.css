@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+[type=text] {
+    background: none !important;
+    --tw-ring-color: none !important;
+}
+
+
