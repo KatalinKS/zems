@@ -40,16 +40,16 @@ const closeModal = () => {
 <template>
     <ActionSection>
         <template #title>
-            Delete Account
+            Удаление аккаунта
         </template>
 
         <template #description>
-            Permanently delete your account.
+            Полное удаление аккаунта.
         </template>
 
         <template #content>
             <div class="max-w-xl text-sm text-gray-600">
-                Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.
+                При удалении аккаунта все данные связанные с ним будут утеряны.
             </div>
 
             <div class="mt-5">
@@ -61,7 +61,7 @@ const closeModal = () => {
             <!-- Delete Account Confirmation Modal -->
             <DialogModal :show="confirmingUserDeletion" @close="closeModal">
                 <template #title>
-                    Delete Account
+                    Удалить аккаунт
                 </template>
 
                 <template #content>
@@ -93,7 +93,7 @@ const closeModal = () => {
                         :disabled="form.processing"
                         @click="deleteUser"
                     >
-                        Delete Account
+                        Удалить аккаунт
                     </DangerButton>
                 </template>
             </DialogModal>
